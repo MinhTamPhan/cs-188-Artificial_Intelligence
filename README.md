@@ -7,16 +7,16 @@ Project AI
 # Demo
 python pacman.py
 # test Search
-python pacman.py --layout testMaze --pacman GoWestAgent
+python pacman.py --layout testMaze --pacman GoWestAgent   
 python pacman.py --layout tinyMaze --pacman GoWestAgent
 # BFS Alorithm
-python pacman.py -h
-python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
-python pacman.py -l tinyMaze -p SearchAgent
-python pacman.py -l mediumMaze -p SearchAgent
-python pacman.py -l bigMaze -z .5 -p SearchAgent
-python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
-python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
+python pacman.py -h     
+python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch      
+python pacman.py -l tinyMaze -p SearchAgent       
+python pacman.py -l mediumMaze -p SearchAgent       
+python pacman.py -l bigMaze -z .5 -p SearchAgent        
+python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs         
+python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5          
 # UCS Alorithm
 python eightpuzzle.py
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
